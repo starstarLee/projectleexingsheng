@@ -1,0 +1,15 @@
+{
+  "name": "qcgbrokerfront",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "contact.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fun",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {}
+}
