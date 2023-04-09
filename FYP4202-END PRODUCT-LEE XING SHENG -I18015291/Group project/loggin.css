@@ -1,0 +1,88 @@
+﻿body {
+    
+    font-family: sans-serif;
+}
+.loginbox {
+    position: absolute;
+    top: 60%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    width: 370px;
+    height: 500px;
+    box-sizing: border-box;
+    background-color:white;
+}
+.ccusername {
+    width: 90%;
+    padding: 10px 16px;
+    margin: 6px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    position: relative;
+    left: 20px;
+    top: 2px;
+}
+.button {
+    width: 90%;
+    padding: 5px 5px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%);
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    position: relative;
+    left: 20px;
+    top: 2px;
+}
+
+.button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+.hi {
+    
+}
+.ok {
+    text-decoration: none;
+    font-size: small;
+    color: lightslategrey;
+    position: relative;
+    left: 60px;
+    top: 20px;
+}
+h1 {
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:x-large;
+color:black;
+
+}
+h4 {
+    color: black;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 20px;
+    top: 2px;
+}
+h3 {
+    color: black;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 20px;
+    top: 2px;
+}
+.check{
+    font-size:small;
+}

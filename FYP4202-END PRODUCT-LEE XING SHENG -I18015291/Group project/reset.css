@@ -1,0 +1,72 @@
+﻿body {
+    background-image: url(images/pp.jpg);
+}
+h1 {
+    background-color: rgb(189, 181, 213);
+    color:blue;
+    
+   
+}
+.box {
+    position: absolute;
+    top: 40%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 420px;
+    box-sizing: border-box;
+}
+.username {
+    width: 100%;
+    padding: 8px 12px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid red;
+    outline-width: medium;
+    outline-style: none;
+    outline-color: invert;
+    border-left-style: none;
+    border-left-color: inherit;
+    border-left-width: medium;
+    border-right-style: none;
+    border-right-color: inherit;
+    border-right-width: medium;
+    border-top-style: none;
+    border-top-color: inherit;
+    border-top-width: medium;
+    border-bottom: 1px solid #fff;
+    background: center;
+   
+}
+.button {
+    width: 100%;
+    padding: 5px 5px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%);
+    border: none;
+    color:;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+    .button:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+    }
+.link {
+    text-decoration: none;
+    font-size: medium;
+    text-decoration: none;
+    font-size: small;
+    color: lightslategrey;
+    position: relative;
+    left: 60px;
+    top: 20px;
+}

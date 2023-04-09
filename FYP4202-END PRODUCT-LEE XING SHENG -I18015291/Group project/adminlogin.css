@@ -1,0 +1,42 @@
+﻿body {
+    background-color:grey;
+}
+*{
+    padding:0px;
+    margin:0px;
+    font-family: sans-serif;
+}
+.login-form{
+    width:350px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    position:absolute;
+   
+}
+.login-form h1{
+    font-size:30px;
+    text-align:center;
+    text-transform:uppercase;
+    margin: 40px 0
+}
+    .login-form p {
+        font-size:20px;
+        margin:15px 0;
+    }
+.textbox {
+    border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    font-size: 16px;
+    padding: 15px 10px;
+    outline: none;
+    border-radius: 5px;
+}
+.login {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 5px;
+    border-radius: 5px;
+}

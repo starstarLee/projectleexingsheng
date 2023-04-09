@@ -1,0 +1,91 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: url('orange.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+}
+h1 {
+    text-align: center;
+}
+.name {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.box {
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    width: 510px;
+    height: 760px;
+    box-sizing: border-box;
+    background-color:grey;
+    text-align: center;
+
+}
+.phone {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.id {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.problem {
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color:deepskyblue;
+    font-weight: bold;
+   
+}
+.feedback {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.submit {
+    transition-duration: 0.4s;
+    border-radius: 50%;
+    background-color: dodgerblue;
+    color:white;
+}
+    .submit:hover {
+        background-color: #4CAF50; /* Green */
+        color: white;
+       
+    }
+    h2{
+        color:white;
+    }
+h3 {
+    color: white;
+}
+h4 {
+    color: white;
+}
+h5 {
+    color: white;
+    font-size:medium;
+}
+.auto-style3 {
+    color: white;
+}
+.rate {
+    color: white;
+}
+.cancel {
+    transition-duration: 0.4s;
+    border-radius: 50%;
+    background-color: dodgerblue;
+    color: white;
+}
+.cancel:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}

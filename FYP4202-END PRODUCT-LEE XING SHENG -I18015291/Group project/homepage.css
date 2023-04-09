@@ -1,0 +1,53 @@
+﻿body {
+    background-image:url('/images/homestay.jpg')
+}
+.lbltitle {
+    text-align: center
+}
+.submit {
+    width: 10%;
+    margin-left: 40%;
+    margin-right: 25%;
+    cursor: pointer;
+    background-image: linear-gradient(red, yellow);
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+}
+.submit {
+    hover{opacity:inherit}
+
+
+}
+.word {
+    font-family: "Times New Roman", Times, serif;
+    text-transform: uppercase;
+   
+    
+    background-size: 100%;
+}
+.words {
+    font-family: "Times New Roman", Times, serif;
+    text-transform: uppercase;
+    background-size: 100%;
+}
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    text-transform: uppercase;
+    text-align:center;
+    font-size:xx-large;
+    color:darkblue;
+}
+.link{
+    text-decoration:none;
+    text-align:center;
+    position:absolute;
+    left:680px;
+  color:black;
+  font-family:sans-serif;
+}

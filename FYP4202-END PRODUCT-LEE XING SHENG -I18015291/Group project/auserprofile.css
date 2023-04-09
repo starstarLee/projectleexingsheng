@@ -1,0 +1,107 @@
+﻿body {
+    background-image: linear-gradient(#bdc3c7,#2c3e50);
+    background-size:cover;
+}
+.flex-container {
+
+}
+.flex {
+   
+}
+.flex-container:first-child {
+    margin-right: 20px;
+}
+.search {
+    width: 29%;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+    .search:focus {
+        color: #00B4CC;
+    }
+.btnsearch {
+    width: 60px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+.buttons {
+    color: #000000;
+    border: 2px solid rgb(216, 2, 134);
+    border-radius: 0px;
+    padding: 9px 25px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #D80286;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+    .buttons:hover {
+        box-shadow: inset 0 100px 0 0 #D80286;
+    }
+
+.tableS {
+    margin-left: auto;
+    margin-right: auto;
+}
+.tableE {
+    margin-left: auto;
+    margin-right: auto;
+}
+.textbox {
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 15px 40px;
+    box-sizing: border-box;
+    background: #ebbef1;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.button {
+    color: #000000;
+    border: 2px solid rgb(216, 2, 134);
+    border-radius: 10px;
+    padding: 9px 25px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #D80286;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    width:395px;
+}
+
+    .button:hover {
+        box-shadow: inset 0 100px 0 0 #D80286;
+    }
+h1 {
+    color: #777;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+.link{
+    text-decoration:none;
+    position:absolute;
+    left:700px;
+}

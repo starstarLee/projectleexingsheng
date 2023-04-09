@@ -1,0 +1,15 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: url('orange.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+    text-align:center;
+}
+.auto-style1 {
+    font-size: xx-large;
+}
+
+.auto-style2 {
+    font-size: x-large;
+}
